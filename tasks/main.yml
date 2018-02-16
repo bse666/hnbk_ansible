@@ -1,0 +1,6 @@
+---
+# tasks file for hnbk_ansible
+
+- name: create /tmp/file
+  file: name=/tmp/hnbk_ansible state=touch
+      
